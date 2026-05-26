@@ -27,8 +27,8 @@ try:
 
     sign_in_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@type='submit']")))
     sign_in_button.click()
-    import time
-    time.sleep(20)
+    # import time
+    # time.sleep(20)
 
 finally:
     driver.quit()
